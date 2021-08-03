@@ -4,7 +4,9 @@ function bouncing(object1,object2)
     {
         object1.velocityX=object1.velocityX * (-1);
         object2.velocityX=object2.velocityX * (-1);
+       // object1.shapeColor="blue";
     }
+   
     if((object1.y-object2.y)<(object1.height+object2.height)/2 && (object2.y-object1.y)<(object1.height+object2.height)/2)
      {
         object1.velocityY=object1.velocityY * (-1);

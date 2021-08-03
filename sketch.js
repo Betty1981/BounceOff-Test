@@ -38,7 +38,14 @@ function draw() {
   }else{
     text("Not Touched",200,200);
   }*/
-  bouncing(a,car);
+ if(isTouching(a,car)){
+   a.shapeColor="blue";
+   car.shapeColor="blue"
+ }
+ else{
+  a.shapeColor="red";
+  car.shapeColor="yellow"
+ }
   bouncing(a,b);
  // bouncing(car,b);
 a.bounceOff(edg);
