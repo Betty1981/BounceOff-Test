@@ -50,7 +50,7 @@ function draw() {
  // bouncing(car,b);
 a.bounceOff(edg);
 car.bounceOff(edg);
-b.bounceOff(edg);
+//b.bounceOff(edg);
    
   drawSprites();
 }
